@@ -1,7 +1,7 @@
-#system-calls
+# system-calls
 These files contain the information and instructions for Lab 9 for CPE 2600 012.
 
-##info.c
+## info.c
 Displays general system information about Linux System
  * Current time of day in nanoseconds
  * System network name (hostname)
@@ -12,12 +12,12 @@ Displays general system information about Linux System
  * total physical memory (bytes)
  * total free memory (bytes)
 
-##pinfo.c
+## pinfo.c
 Displays process information for specified process id
  * Process priority (nice value)
  * scheduling method
 
-##pmod.c
+## pmod.c
 Modifies the priority of the current process and then sleeps.
  1. Gets and displays current priority
  2. Reduces priority by 10
@@ -25,7 +25,7 @@ Modifies the priority of the current process and then sleeps.
  4. Sleeps for 1837272638 nanoseconds
  5. Prints goodbye message
 
-##finfo.c
+## finfo.c
 Displays detailed information about specified file
  * File type
  * File permissions
