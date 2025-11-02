@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
     if (scheduler == -1) {
         if (errno == ESRCH) {
             printf("Error: PID %d does not exist\n", pid);
-        } else if (errno = EPERM){
+        } else if (errno == EPERM){
             printf("Error: permission denied accessing process %d\n", pid);
         } else {
             perror("Error getting scheduler");
